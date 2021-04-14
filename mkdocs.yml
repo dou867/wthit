@@ -1,0 +1,25 @@
+site_name: How the hell am I suppossed to make a WTHIT plugin?
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.tabbed
+  - pymdownx.superfences
+
+repo_name: badasintended/wthit
+repo_url: https://github.com/badasintended/wthit
+
+docs_dir: src
+edit_uri: tree/docs/src
+
+nav:
+  - Getting Started: getting_started.md
