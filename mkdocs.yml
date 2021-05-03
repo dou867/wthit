@@ -22,4 +22,5 @@ docs_dir: src
 edit_uri: tree/docs/src
 
 nav:
+  - Changelogs: changelogs.md
   - Getting Started: getting_started.md
