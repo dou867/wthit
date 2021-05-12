@@ -1,5 +1,9 @@
 # Changelogs
 
+## 2.9.0
+- Added versioned config that will reset if it doesn't match
+- Reverted removal of registry config
+
 ## 2.8.1
 - Fixed item tooltip doesn't show it's custom name ([#28](https://github.com/badasintended/wthit/issues/28))
 - Fixed spawner name not using formatting config
