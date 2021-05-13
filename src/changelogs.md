@@ -1,5 +1,10 @@
 # Changelogs
 
+## 2.9.1
+- Changed config encoding to UTF-8
+- Fixed hearts texture not using the correct outline
+- Fixed core plugin logged twice
+
 ## 2.9.0
 - Added versioned config that will reset if it doesn't match
 - Reverted removal of registry config
