@@ -1,5 +1,8 @@
 # Changelogs
 
+## 2.9.2
+- Fixed PluginConfig crash ([#33](https://github.com/badasintended/wthit/issues/33))
+
 ## 2.9.1
 - Changed config encoding to UTF-8
 - Fixed hearts texture not using the correct outline
