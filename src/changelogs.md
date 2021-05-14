@@ -1,5 +1,12 @@
 # Changelogs
 
+## 2.10.0
+- Exposed formatting options in accessors
+- Added constant class for easier override of the core plugin
+- Changed jukebox tooltip to use music disc description if possible
+- Changed hide infestation and trapped chest to use its config value
+- Fixed interface not working on provider registry
+
 ## 2.9.2
 - Fixed PluginConfig crash ([#33](https://github.com/badasintended/wthit/issues/33))
 
