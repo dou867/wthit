@@ -1,5 +1,8 @@
 # Changelogs
 
+## 2.10.1
+- Added XP Orbs and Area Effect Cloud to blacklisted entities
+
 ## 2.10.0
 - Exposed formatting options in accessors
 - Added constant class for easier override of the core plugin
