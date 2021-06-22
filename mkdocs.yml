@@ -38,3 +38,4 @@ nav:
 
   - Plugin 101:
     - Getting Started: plugin/getting_started.md
+    - Overrides: plugin/overrides.md
