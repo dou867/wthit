@@ -36,7 +36,7 @@ repositories {
     When you compile against the full jar and use non API classes, your mod could break any time WTHIT updates.
     On the other hand, the API jar is guaranteed to be stable. No breaking changes without deprecation time.
 
-    When you found yourself needing to touch non API classes, [open an issue on GitHub](https://github.com/badasintended/wthit/issues/new?assignees=&labels=api&template=api.md&title=).
+    If you found yourself needing to touch non API classes, [open an issue on GitHub](https://github.com/badasintended/wthit/issues/new?assignees=&labels=api&template=api.md&title=).
 
 
 ## Creating Plugins

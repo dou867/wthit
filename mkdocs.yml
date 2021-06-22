@@ -1,4 +1,4 @@
-site_name: How the hell am I suppossed to make a WTHIT plugin?
+site_name: What the hell is that?
 
 theme:
   name: material
@@ -6,6 +6,17 @@ theme:
     - navigation.sections
   icon:
     repo: fontawesome/brands/github
+  palette:
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: default
+      primary: white
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 
 markdown_extensions:
   - abbr
@@ -22,5 +33,8 @@ docs_dir: src
 edit_uri: tree/docs/src
 
 nav:
-  - Changelogs: changelogs.md
-  - Getting Started: getting_started.md
+  - Configurations:
+    - Blacklisting Blocks and Entities: config/blacklisting.md
+
+  - Plugin 101:
+    - Getting Started: plugin/getting_started.md
