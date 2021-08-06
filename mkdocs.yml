@@ -1,4 +1,5 @@
 site_name: What the hell is that?
+site_url: https://docs.bai.lol/wthit/
 
 theme:
   name: material
