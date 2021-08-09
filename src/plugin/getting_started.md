@@ -77,25 +77,13 @@ public class MyWailaPlugin implements IWailaPlugin {
     }
     ```
 === "Forge"
-    In your `mods.toml`
-    ```toml
-    [[wailaPlugins]]
-    id = "mymod:my_plugin1"
-    initializer = "com.example.MyPlugin1"
-
-    # with dependency
-    [[wailaPlugins]]
-    id = "mymod:my_plugin2"
-    initializer = "com.example.MyPlugin2"
-    required = "mod_a"
-
-    # also accept an array of dependencies
-    [[wailaPlugins]]
-    id = "mymod:my_plugin3"
-    initializer = "com.example.MyPlugin3"
-    required = ["mod_a", "mod_b"]
+    Annotate your plugin class with `@WailaPlugin`:
+    ```java
+    @WailaPlugin(id = "mymod:waila_plugin")
+    public class MyWailaPlugin implements IWailaPlugin {}
     ```
-
-    ??? danger "Deprecated Way"
-        On HWYLA days, `@WailaPlugin` annotation was used to register plugins.
-        This method was deprecated and will be removed in 1.17 release.
+    A `required` array can be added to specify mods required for that plugin to be loaded.
+    ```java
+    @WailaPlugin(id = "mymod:waila_plugin", required = "jei")
+    public class MyWailaPlugin implements IWailaPlugin {}
+    ```
